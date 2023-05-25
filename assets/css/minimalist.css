@@ -69,9 +69,9 @@ a:hover {
 
 /* Timeline */
 .timeline-container {
-  width: 80%;
-  padding: 10px 0;
-  margin: 10px auto;
+  width: 100%;
+  padding: 50px 0;
+  margin: 50px auto;
   position: relative;
   overflow: hidden;
 }
