@@ -70,8 +70,8 @@ a:hover {
 /* Timeline */
 .timeline-container {
   width: 80%;
-  padding: 50px 0;
-  margin: 50px auto;
+  padding: 10px 0;
+  margin: 10px auto;
   position: relative;
   overflow: hidden;
 }
@@ -88,9 +88,9 @@ a:hover {
   z-index: 1
 }
 .timeline-block {
-  width: -webkit-calc(20% + 8px);
-  width: -moz-calc(20% + 8px);
-  width: calc(20% + 8px);
+  width: -webkit-calc(50% + 8px);
+  width: -moz-calc(50% + 8px);
+  width: calc(50% + 8px);
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
