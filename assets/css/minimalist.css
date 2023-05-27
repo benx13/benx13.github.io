@@ -22,7 +22,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
+a:hover { 
   color: black;
   background-image: linear-gradient(to right, black, black);
   background-position: bottom left;
