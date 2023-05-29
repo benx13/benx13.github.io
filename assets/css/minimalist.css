@@ -77,12 +77,12 @@ a:hover {
 .project-line {
   content: '';
   position: absolute;
-  top: 450px;
+  top: 465px;
   left: 5.4%;
   margin-left: 0px;
   margin-right: 50px;
   width: 2px;
-  height: 550px;
+  height: 425%;
   background: #CCD1D9;
   z-index: 1
 }
