@@ -90,42 +90,25 @@
                       performances in both image classification and semantic segmentation. The system was able to recognize with confidence findings 
                       such as pneumonia and Covid-19.</p>
                   </div>
-                  <div class="marker"></div>
+                    <div class="marker"></div>
+                  </div>
+                  
                 </div>
-                
+                <!-- ./timeline -->
               </div>
-              <!-- ./timeline -->
-            </div>
-          </div>
-        </div>
-        <!-- ./projects-panel--> 
-        <div class="tab-pane fade show" id="projects" role="tabpanel">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Developping a mini-compiler</h4>
-              <p class="card-text text-justify">This project involves the use of lex and bison to develop a compiler for a fundamental language that encompasses 
-                essential functionalities like loops, read/write instructions, and more. I conducted lexical, syntactic, and semantic analysis to detect
-                error such as a library not included, a value out of range, a double declaration of a variable or a devision by zero.</p>
-                <ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
             </div>
           </div>
 
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Database Management and Extraction of information</h4>
-              <p class="card-text text-justify">I developed a project that involved using SQL to extract information from a database and incorporating a MongoDB database. 
-                The main focus was on creating a user-friendly interface using Python (tkinter) that processes queries and provide accurate responses 
-                from the databases. Other libraries that were used in this process were pymongo, json, pandas and numpy.</p>
-                <ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+          <!-- ./projects-panel--> 
+          <div class="tab-pane fade show" id="projects" role="tabpanel">
+            <div class="timeline-block"  style="margin-left:-11.6%;">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-h3">Medical Images</h3>
+              </div>
             </div>
-          </div>
-
+            <div class="project-line" style="top:450px; height:500px"></div>
+            
           <div class="card mb-4">
             <div class="card-body">
               <h4 class="card-title">Interpreting the decision making process in classifing Chest XRays</h4>
@@ -137,15 +120,30 @@
                 diagnosis system to make the process of reading and analizing an XRay more efficient for the medical practitioner, and faster 
                 for the patients. 
                 I built an end-to-end state of the art deep learning pipelines for medical
-                image classification, on a dataset of 20,000 images. My main contributions
+                image classification, on a dataset of over 20,000 images. My main contributions
                 consist of data cleansing and preprocessing and VAE-based image segmentation.
-                Classification models based on vision transformers and efficient net, to
-                accurately classify medical images. In addition to that, I could address the interpretability Challenges in Chest X-ray Classification...
-                Making the model focus on the segmented lungs</p>
-                <ul class="list-inline social-icons">
+                Classification models based on vision transformers and efficient net. In addition to that, I could address the 
+                interpretability Challenges in Chest X-ray Classification by comparing the performances of the models on full images and lung segmented ones. In fact 
+                the best results were achieved on non segmented images... Making the model focus on the segmented lungs</p>
+                <!--<ul class="list-inline social-icons">
                   <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                   <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">CT</h4>
+                <div class="card-pictures d-flex flex-wrap float-md-right">
+                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
+                </div>
+              <p class="card-text text-justify">Advanced segmentation models based on generative models (GANs and
+                probabilistic diffusion models)</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
             </div>
           </div>
 
@@ -160,23 +158,10 @@
                 aspect to the classification, for instance countries and their capitals wouldn't be linked 
                 in a syntaxic view but word embedding brings word understanding to a new level and allows to 
                 associate words of a similar meaning like synonyms and verbs in different tenses.</p>
-                <ul class="list-inline social-icons">
+                <!--<ul class="list-inline social-icons">
                   <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                   <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Winner Determination Problem</h4>
-              <p class="card-text text-justify">Solving the WDP using Tabu Search and Q learning with the use of an early stop strategy to reduce the execution time. Creation 
-                of a dataset with random instance generation depending on the number of objects, the number of auctions and the min and max number of
-                objects per auction. The conclusion of the project was that Tabu Search was the more suited algorithm for the problem.</p>
-                <ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                </ul>--> 
             </div>
           </div>
 
@@ -187,10 +172,37 @@
                 the CISI dataset using Streamlit. With the use of regular expressions and the implementation of vector search and GloVe model search.
                 Implemented document searchwith clustering using DBscan, latent dirichlet allocation and machine learning methods, with a 
                 grid search strategy.</p>
-                <ul class="list-inline social-icons">
+                <!--<ul class="list-inline social-icons">
                   <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                   <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">OCR</h4>
+                <div class="card-pictures d-flex flex-wrap float-md-right">
+                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
+                </div>
+              <p class="card-text text-justify">TXT</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Winner Determination Problem</h4>
+              <p class="card-text text-justify">Solving the WDP using Tabu Search and Q learning with the use of an early stop strategy to reduce the execution time. Creation 
+                of a dataset with random instance generation depending on the number of objects, the number of auctions and the min and max number of
+                objects per auction. The conclusion of the project was that Tabu Search was the more suited algorithm for the problem.</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
             </div>
           </div>
 
@@ -204,10 +216,24 @@
                 like the A* algorithm. Methods based on metaheuristics including genetic algorithms
                 with dynamic mutation rate and PSO with adaptation to the discrete
                 space. Using a hashmap to represent the different states of the board for a quicker execusion.</p>
-                <ul class="list-inline social-icons">
+                <!--<ul class="list-inline social-icons">
                   <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                   <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Complexity</h4>
+                <div class="card-pictures d-flex flex-wrap float-md-right">
+                  <img src="assets/images/Hanoi.gif" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
+                </div>
+              <p class="card-text text-justify">TXT</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
             </div>
           </div>
           
@@ -219,53 +245,23 @@
                 </div>
               <p class="card-text text-justify">Various techniques for tabular data statistical preprocessing, visualisation, clustering
                 and gradient boosters based classification and prediction</p>
-                <ul class="list-inline social-icons">
+                <!--<ul class="list-inline social-icons">
                   <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
                   <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
+                </ul>--> 
             </div>
           </div>
 
           <div class="card mb-4">
             <div class="card-body">
-              <h4 class="card-title">CT</h4>
-                <div class="card-pictures d-flex flex-wrap float-md-right">
-                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
-                </div>
-              <p class="card-text text-justify">Advanced segmentation models based on generative models (GANs and
-                probabilistic diffusion models)</p>
-              <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Complexity</h4>
-                <div class="card-pictures d-flex flex-wrap float-md-right">
-                  <img src="assets/images/Hanoi.gif" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
-                </div>
-              <p class="card-text text-justify">TXT</p>
-              <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">OCR</h4>
-                <div class="card-pictures d-flex flex-wrap float-md-right">
-                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
-                </div>
-              <p class="card-text text-justify">TXT</p>
-              <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
+              <h4 class="card-title">Database Management and Extraction of information</h4>
+              <p class="card-text text-justify">I developed a project that involved using SQL to extract information from a database and incorporating a MongoDB database. 
+                The main focus was on creating a user-friendly interface using Python (tkinter) that processes queries and provide accurate responses 
+                from the databases. Other libraries that were used in this process were pymongo, json, pandas and numpy.</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
             </div>
           </div>
 
@@ -276,12 +272,26 @@
                   <img src="assets/images/BrickBreaker.png" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
                 </div>
               <p class="card-text text-justify">Face and object dataction</p>
-              <ul class="list-inline social-icons">
-                <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
             </div>
           </div>
+
+          <div class="tab-pane fade show" id="projects" role="tabpanel">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Developping a mini-compiler</h4>
+                <p class="card-text text-justify">This project involves the use of yacc and bison to develop a compiler for a fundamental language that encompasses 
+                  essential functionalities like loops, read/write instructions, and more. I conducted lexical, syntactic, and semantic analysis to detect
+                  error such as a library not included, a value out of range, a double declaration of a variable or a devision by zero.</p>
+                  <!--<ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>-->
+              </div>
+            </div>
 
         </div>
       </div>
