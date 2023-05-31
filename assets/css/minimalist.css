@@ -83,12 +83,12 @@ a:hover {
 .project-line {
   content: '';
   position: absolute;
-  top: 465px;
+  top: 365px;
   left: 9%;
   margin-left: 0px;
   margin-right: 50px;
   width: 2px;
-  height: 425%;
+  height: 257%;
   background: #CCD1D9;
   z-index: 1
 }
