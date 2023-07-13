@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kenza Aoucher</title>
+    <title>Ahmed Benmessaoud</title>
     <meta name="description" content=" ">
-    <meta name="author" content="Kenza Aoucher">
+    <meta name="author" content="Ahmed Benmessaoud">
 
     <!-- Mobile-friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,18 +27,18 @@
     <header>
       <div class="container">
         <div class="row justify-content-lg-center">
-          <!--<div class="col-lg-2 text-center"> 
-            <img src="https://picsum.photos/140" class="user-image rounded-circle" alt="Kenza Aoucher">
+          <!--<div class="col-lg-2 text-center">
+            <img src="https://picsum.photos/140" class="user-image rounded-circle" alt="Ahmed Benmessaoud">
           </div>--> 
           <div class="col-lg-7">
-            <h2>Kenza Aoucher</h2>
+            <h2>Ahmed Benmessaoud</h2>
             <p class="text-justify">
 
             </p>
             <ul class="list-inline text-lg-right social-icons">
-              <li class="list-inline-item"><a href="https://www.linkedin.com/in/kenza-aoucher-272437222/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/Kenza266/" target="_blank"><i class="fab fa-github"></i></a></li>
-              <li class="list-inline-item"><a href="mailto:kenza.aoucher.26@gmail.com" target="_blank"><i class="fas fa-at"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/ahmed-benmessaoud-173663159/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/benx13/" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:ahmed.benmessaoud@aol.com" target="_blank"><i class="fas fa-at"></i></a></li>
               
               <!--
                 <li class="list-inline-item"><a href="#" target="_blank"><i class="fas fa-pencil-alt"></i></a></li>
@@ -69,7 +69,15 @@
             <div class="col-lg-80">
               <!-- Timeline -->
               <div class="timeline-container", style="left: 1%;">
-
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Research associate</h3>
+                    <span class="timeline-span">Innovation academy, Mila</span>
+                    <p class="text-muted small mb-3">2018-now</p>
+                    <p class="timeline-p text-justify">As a volunteer research associate at Innovation Academy since 2018, I have contributed to projects involving machine learning, signal processing and edge computation. My responsibilities have included optimizing data acquisition costs in real-time through programmable sensors, streamlining deep learning and machine learning models via pruning and quantization techniques, and building IOT and edge computing systems. I have also enjoyed teaching programming languages like Python and C as well as skills like Numpy and OpenCV to students ranging from youths to graduates. Through this experience, I have developed strong research, programming and teaching abilities in machine learning, signal processing and embedded systems.</p>
+                  </div>
+                    <div class="marker"></div>
+                  </div>
                 <div class="timeline-block timeline-block-right">
                   <div class="marker"></div>
                   <div class="timeline-content">
@@ -79,19 +87,21 @@
                     <p class="timeline-p text-justify"></p>
                   </div>
                 </div>
+                
             
                 <div class="timeline-block timeline-block-left">
                   <div class="timeline-content">
                     <h3 class="timeline-h3">Bachlor's degree</h3>
                     <span class="timeline-span">USTHB, Algiers (Algeria)</span>
                     <p class="text-muted small mb-3">2018-2021</p>
-                    <p class="timeline-p text-justify">I graduated summa cum laude in the 99<sup>th</sup> percentile. My thesis was titled "From Accuracy 
+                    <p class="timeline-p text-justify">My thesis was titled "From Accuracy 
                       to Relevance: Interpreting the decision making process in classifing Chest XRays" in which I was able to achieve state of the art 
                       performances in both image classification and semantic segmentation. The system was able to recognize with confidence findings 
                       such as pneumonia and Covid-19.</p>
                   </div>
                     <div class="marker"></div>
                   </div>
+                  
                   
                 </div>
                 <!-- ./timeline -->
@@ -101,12 +111,54 @@
 
           <!-- ./projects-panel--> 
           <div class="tab-pane fade show" id="projects" role="tabpanel">
-            <!--<div class="hide-mobile">
+           <!-- 
+            <div class="hide-mobile">
               <div class="project-line"></div>
-            </div>--> 
-
-          <div class="timeline-block" style="margin-left:-6.755%; margin-bottom: 1%;">
-            <div class="marker"></div>
+            </div>
+            --->
+            <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-h3">Papers</h3>
+              </div>
+            </div>
+              
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">High quality ECG dataset based on MIT-BIH recordings for improved heartbeats classification</h4>
+                <h6 class="card-subtitle mb-2 text-muted"> <strong class="text-danger">A.S. Benmessaoud</strong>, F. Medjani, Y. Bousseloub, K. Bouaita, D. Benrahem, T. Kezai </h6>
+                  <div class="card-pictures d-flex flex-wrap float-md-right">
+                    <img src="assets/images/paper.png" class="user-image float-md-right ml-md-3 img-fluid" alt="image">
+                    <img src="assets/images/paper2.png" class="user-image float-md-right ml-md-3 img-fluid" alt="image">
+                  </div>
+                <p class="card-text text-justify">The paper proposes a new methodology to create a high-quality ECG heartbeat dataset from the MIT-BIH recordings. The authors use an outlier removal technique and calculate an optimal heartbeat size to avoid mixing successive heartbeats. They also preserve the R-R interval set which is important for diagnosis. The new dataset is publicly available. To evaluate the dataset quality, the authors train a 1D ResNet model which achieves 99.24% accuracy, outperforming prior methods by 5-7%. Downsampling the data further improves model performance and efficiency. Overall, the improved dataset construction technique and deep learning model achieve state-of-the-art heartbeat classification, demonstrating the importance of high-quality training data.</p>
+                  <!--<ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>--> 
+              </div>
+            </div>
+            <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
+              <div class="marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-h3">IoT devops</h3>
+              </div>
+            </div>
+              
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Smart factory infrastructure</h4>
+                  <div class="card-pictures d-flex flex-wrap float-md-right">
+                  </div>
+                <p class="card-text text-justify">Smart factory infrastructure by collecting data from the newest st microelectronics ISPU chip with an integrated programmable 32kb/8kb cpu core runing a helper deeplearning model inside connected to an ESP32 to transmit data to a cloud based mqtt data broker linked to a kafka datastream which streams and applies basic preprocessing to subscribed services such grafana for dashboarding, influxdb for time series data, and other deep learning containers for decision deriving.</p>
+                  <!--<ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>--> 
+              </div>
+            </div>
+            <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
+              <div class="marker"></div>
             <div class="timeline-content">
               <h3 class="timeline-h3">Medical Images</h3>
             </div>
@@ -150,7 +202,41 @@
             </div>
           </div>--> 
 
-          <div class="timeline-block" style="margin-left:-6.755%; margin-bottom: 1%;">
+          <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
+            <div class="marker"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-h3">Data Visualization and Dashboards</h3>
+            </div>
+          </div>
+          
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Data Mining</h4>
+                <!--<div class="card-pictures d-flex flex-wrap float-md-right">
+                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
+                </div>--> 
+              <p class="card-text text-justify">In this project, I implemented algorithms for frequent pattern mining, classification, and clustering on the IBM employee attrition dataset. For frequent pattern mining, I used the Apriori algorithm to find associations. For classification, I compared decision trees, random forests, and XGBoost, tuning hyperparameters and preprocessing data. For clustering, I experimented with DBSCAN and hierarchical clustering using different distance measures and parameters. I conducted extensive experiments to evaluate the algorithms using metrics like accuracy, F1-score, silhouette score, and Rand index. I also implemented interactive visual interfaces for exploring the dataset, tuning parameters, training models, making predictions, and visualizing results like clusters. This project demonstrates my skills in implementing key data mining and machine learning algorithms, properly evaluating models, and building interfaces for model interaction.</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Database Management and Extraction of information</h4>
+              <p class="card-text text-justify">I developed a project that involved using SQL to extract information from a database and incorporating a MongoDB database. 
+                The main focus was on creating a user-friendly interface using Python (tkinter) that processes queries and provide accurate responses 
+                from the databases. Other libraries that were used in this process were pymongo, json, pandas and numpy.</p>
+                <!--<ul class="list-inline social-icons">
+                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>--> 
+            </div>
+          </div>
+
+          <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
             <div class="marker"></div>
             <div class="timeline-content">
               <h3 class="timeline-h3">Text Manipulation</h3>
@@ -191,20 +277,6 @@
 
           <!--<div class="card mb-4">
             <div class="card-body">
-              <h4 class="card-title">Information retrival movie plot BERT</h4>
-                <div class="card-pictures d-flex flex-wrap float-md-right">
-                  <img src="assets/images/BrickBreaker.png" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
-                </div>
-              <p class="card-text text-justify">Face and object dataction</p>
-                <ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
-            </div>
-          </div>--> 
-
-          <!--<div class="card mb-4">
-            <div class="card-body">
               <h4 class="card-title">OCR</h4>
                 <div class="card-pictures d-flex flex-wrap float-md-right">
                   <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
@@ -217,7 +289,7 @@
             </div>
           </div>--> 
 
-          <div class="timeline-block" style="margin-left:-6.755%; margin-bottom: 1%;">
+          <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
             <div class="marker"></div>
             <div class="timeline-content">
               <h3 class="timeline-h3">Traditional Machine Learning</h3>
@@ -268,42 +340,7 @@
             </div>
           </div>--> 
 
-          <div class="timeline-block" style="margin-left:-6.755%; margin-bottom: 1%;">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3 class="timeline-h3">Data Visualization and Dashboards</h3>
-            </div>
-          </div>
-          
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Data Mining</h4>
-                <!--<div class="card-pictures d-flex flex-wrap float-md-right">
-                  <img src="https://picsum.photos/140" class="user-image float-md-right ml-md-3 img-fluid" alt="image" style="width: 200px; height: auto;">
-                </div>--> 
-              <p class="card-text text-justify">Various techniques for tabular data statistical preprocessing, visualisation, clustering
-                and gradient boosters based classification and prediction</p>
-                <!--<ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>--> 
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-body">
-              <h4 class="card-title">Database Management and Extraction of information</h4>
-              <p class="card-text text-justify">I developed a project that involved using SQL to extract information from a database and incorporating a MongoDB database. 
-                The main focus was on creating a user-friendly interface using Python (tkinter) that processes queries and provide accurate responses 
-                from the databases. Other libraries that were used in this process were pymongo, json, pandas and numpy.</p>
-                <!--<ul class="list-inline social-icons">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>--> 
-            </div>
-          </div>
-
-          <div class="timeline-block" style="margin-left:-6.755%; margin-bottom: 1%;">
+          <div class="timeline-block" style="margin-left:-3.8%; margin-bottom: 1%;">
             <div class="marker"></div>
             <div class="timeline-content">
               <h3 class="timeline-h3">Others</h3>
@@ -337,6 +374,7 @@
                   </ul>-->
               </div>
             </div>
+
         </div>
       </div>
     </section>
