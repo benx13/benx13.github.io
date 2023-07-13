@@ -43,9 +43,10 @@ a:hover {
 }
 
 /* User Image */
-.user-image {
+.user-image { 
   width: 140px;
   height: 140px;
+  margin-left: auto;
 }
 
 @media (max-width: 767px) {
